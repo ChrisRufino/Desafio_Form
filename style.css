@@ -5,11 +5,6 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  font-family: "Staatliches", cursive;
-}
-
-body {
   background: #e5e5e5;
 }
 
@@ -30,11 +25,112 @@ body::before {
   margin: auto;
 }
 
+fieldset {
+  border: none;
+}
+
+header {
+  margin-top: 140px;
+}
+
+header h1 {
+  font-family: "Staatliches", cursive;
+  color: #fff;
+  font-size: 48px;
+  line-height: normal;
+}
+
+header p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  line-height: normal;
+}
+
 form {
   width: 750px;
   height: 1084px;
   background: #ffffff;
+
+  margin-top: 58px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 64px;
 }
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 30px;
+}
+
+.fieldset-wrapper legend {
+  color: #535971;
+  font-family: Staatliches;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+
+  width: 100%;
+  border-bottom: 1px solid #e6e6f0;
+  padding-bottom: 16px;
+}
+
+.input-wrapper {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.input-wrapper label {
+  padding-top: 32px;
+}
+
+.input-wrapper label span {
+  font-size: 12px;
+  line-height: 20px;
+  color: #c1bccc;
+
+  margin-left: 5px;
+}
+
+.input-wrapper input {
+  border-radius: 8px;
+  border: 1px solid #e6e6f0;
+  width: 622px;
+  height: 56px;
+
+  padding-top: 8px;
+}
+
+#register-date,
+#register-name,
+#register-sobrenome {
+  width: 300px;
+  height: 56px;
+}
+
+#register-time {
+  width: 140px;
+  height: 56px;
+}
+
 .col-3 {
   display: flex;
+
+  gap: 32px;
+}
+.col-4 {
+  display: flex;
+
+  gap: 32px;
+}
+footer {
+  margin-bottom: 366px;
 }
