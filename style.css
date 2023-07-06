@@ -67,7 +67,8 @@ form {
   padding-top: 30px;
 }
 
-.fieldset-wrapper legend {
+.fieldset-wrapper legend,
+.fieldset-mentory {
   color: #535971;
   font-family: Staatliches;
   font-size: 24px;
@@ -108,6 +109,10 @@ form {
 
   padding-top: 8px;
 }
+.fieldset-mentory {
+  padding-top: 40px;
+  border: none;
+}
 
 #register-date,
 #register-name,
@@ -123,14 +128,13 @@ form {
 
 .col-3 {
   display: flex;
-
   gap: 32px;
 }
 .col-4 {
   display: flex;
-
   gap: 32px;
 }
+
 footer {
   margin-bottom: 366px;
 }
